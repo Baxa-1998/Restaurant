@@ -1,11 +1,24 @@
-import React from "react";
+import React from 'react';
 
-const App = () => {
-  return <div>
-    <h1>Hello world!</h1>
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu,TotalMenu } from './container';
+import { Navbar } from './components';
+import './App.css';
 
 
-  </div>;
-};
+const App = () => (
+  <div>
+    <Navbar />
+    <Header />
+    <AboutUs />
+    <TotalMenu/>
+    <SpecialMenu />
+    <Chef />
+    <Intro />
+    <Laurels />
+    <Gallery />
+    <FindUs />
+    <Footer />
+  </div>
+);
 
 export default App;

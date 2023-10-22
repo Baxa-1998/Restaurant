@@ -1,0 +1,84 @@
+.appTotalMenu{
+    // position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    height: 700px;
+
+    transition: 500ms ease;
+
+  
+ 
+    overflow: hidden;
+    
+.appMenuItems {
+    width: 33%;
+    height: 700px;
+  
+    background: transparent;
+    z-index: 1;
+
+    
+
+    &:nth-child(2){
+        width: 33%;
+        border: 1px solid black;
+ 
+
+    }
+    &:nth-child(3){
+        width: 33%;
+        border: 1px solid black;
+        
+
+    }
+    
+   
+
+    
+
+}
+
+
+    .active{
+        backdrop-filter: saturate(90%) blur(5px);
+
+    }
+   
+
+    /* backdrop-filter: saturate(90%) blur(5px); */
+    /* filter: blur(5px); */    
+}
+.back1{
+    background: url(./slide1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.back2{
+    background: url(./slide2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.back3{
+    background: url(./slide3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
