@@ -26,6 +26,7 @@ const TotalMenu = () => {
       return {...menu, active: false}
     })
     setMenu(newArray)
+    console.log('ss');
   }
 
  
